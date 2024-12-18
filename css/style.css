@@ -1,0 +1,172 @@
+body{
+    background-color: #2e2e2e;
+    color: white;
+}
+ 
+h1,h2,h3,h4,h5,h6{
+    color: #f00;
+}
+ 
+header{
+   
+    display: flex;
+    justify-content: space-between;
+}
+ 
+nav{
+    display: flex;
+    align-items: center;
+}
+nav .menu{
+    width: 70px;
+}
+ 
+nav .logo{
+    width: 100px;
+}
+ 
+.busquedaForm{
+    display: flex;
+    align-items: center;
+}
+ 
+.busquedaForm form{
+    display: flex;
+    align-items: center;
+}
+ 
+.busquedaForm input{
+    width: 500px;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ 
+.busquedaForm .lupa{
+    width: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+   
+}
+ 
+.busquedaForm .micro{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+ 
+.busquedaForm button{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: black;
+    color: #fff;
+}
+ 
+main{
+        display: flex;
+    justify-content: space-around;
+}
+ 
+.userOption{
+    display: flex;
+    align-items: center;
+}
+.userOption img{
+    width: 35px;
+    margin: 5px;
+}
+.userOption .userIco{
+    border-radius: 50px;
+}
+ 
+main aside{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+main aside a{
+    margin: 10px;
+    padding: 10px;
+    background-color: #2e2e2e;
+    color: #fff;
+    text-decoration: none;
+}
+ 
+main aside a:hover{
+    background-color: #3f3f3f;
+    border-radius: 10px;
+}
+
+main aside hr{
+    width: 250px;
+    border:#3f3f3f 1px solid;
+    border-radius: 20px;
+}
+
+
+.videoArea{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* .videoArea img {
+    width: 350px;
+} */
+
+.videoArea .videoCard{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+
+}
+.videoArea .videoCard img{
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.videoArea .videoCard .infoCard{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3f3f3f;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: flex-start;
+
+}
+
+.videoArea .videoCard .infoCard img{
+    width: 30px;
+    border-radius:50%;
+    margin: 10px;
+
+}
+
+.videoArea .videoCard .infoCard .videoInfo{
+
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    
+}
+.videoArea .videoCard .infoCard .menu3P{
+    
+    width: 20px;
+
+}
+
+.videoArea .videoCard .infoCard .videoInfo a{
+
+    color: white;
+    text-decoration: none;
+    
+}
+
+footer{
+    
+}
